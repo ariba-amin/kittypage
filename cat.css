@@ -1,0 +1,56 @@
+.gradient-background{
+    background:linear-gradient(rgb(121, 166, 230), rgb(26, 228, 214),rgb(0, 128, 255));
+    background-size: 180% 180%;
+}
+.img-custom{
+    height: 400px;
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+.cat{
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width:500px){
+    .cattop{
+        margin-left: 17%;
+    }
+    .navigation{
+        padding: 10px;
+    }
+    .catpics{
+        width: 100px;
+        height: 120px;
+    }
+    .texti{
+        text-align: center;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+}
+.sectionfirst{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+@media only screen and (min-width:500px){
+    .catpics{
+        height: 200px;
+    }
+    .mycard{
+        width: 18rem;
+    }
+    .texti{
+        text-align: center;
+    }
+}
+
+.ccenter{
+    background-color: rgb(206, 242, 230);
+}
